@@ -14,4 +14,8 @@ public class MemberDao {
         member.setId(++nextId);
         map.put(member.getEmail(), member);
     }
+
+    public void update(Member member) {
+        map.put(member.getEmail(), member);
+    }
 }

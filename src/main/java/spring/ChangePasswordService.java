@@ -1,6 +1,6 @@
 package spring;
 
-public class ChnagePasswordService {
+public class ChangePasswordService {
     private MemberDao memberDao;
 
     public void changePassword(String email, String oldPwd, String newPwd) {
